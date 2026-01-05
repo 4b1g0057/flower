@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Bidens', 'Frangipani', 'Lantana', 'Periwinkle']
+
+roboflow:
+  workspace: finalproject-kn1rh
+  project: flower-mwxvd
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/finalproject-kn1rh/flower-mwxvd/dataset/9
